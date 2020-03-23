@@ -1,7 +1,7 @@
 from person import array
 from randomwordgenerator import randomwordgenerator
 
-def get_word(): return randomwordgenerator.generate_random_words(n=1)
+get_word = lambda: randomwordgenerator.generate_random_words(n=1)
 def play_game(word):
     lives = 6
     index = 0
