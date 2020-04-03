@@ -1,6 +1,5 @@
 from person import array
 from randomwordgenerator import randomwordgenerator
-
 get_word = lambda: randomwordgenerator.generate_random_words(n=1)
 def play_game(word):
     lives = 6
